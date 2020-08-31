@@ -1,0 +1,113 @@
+h1.title {
+     font-weight: 500;
+     text-decoration: none;
+}
+
+span.page-reference a.page-ref:hover {
+     text-decoration: underline;
+     color: #045591;
+}
+
+span.block-ref {
+     color: black;
+     text-decoration: underline rgba(167, 182, 194, 0.2);
+}
+
+span.page-reference a.page-ref:before {
+     content: "[[";
+     color: #A7B6C2;
+     text-decoration: none;
+}
+
+span.page-reference a.page-ref:after {
+     content: "]]";
+     color: #A7B6C2;
+     text-decoration: none;
+}
+
+
+span.block-ref:hover {
+     background-color: rgba(167, 182, 194, 0.2);
+     padding-bottom: 5px;
+     cursor: alias;
+}
+
+span.text-gray-500 {
+     display: none;
+}
+
+
+a.tag:hover {
+     color: #A7b6c2;
+
+     text-decoration: underline;
+}
+
+a.marker-switch {
+     display: none;
+}
+div.my-2.bg-base-2.px-7.py-2.rounded {
+     background-color: #0000;
+     border-radius: 0;
+}
+
+span.mx-2.opacity-50 {
+     visibility: hidden;
+}
+
+span.mx-2.opacity-50:before {
+     content: "❯";
+     visibility: visible;
+}
+
+div.ml-1.font-medium a:hover {
+     color: #045591;
+     text-decoration: underline;
+}
+
+div.flex.flex-row.justify-between a {
+     font-size: 25px;
+     font-weight: 300;
+}
+
+div.flex.flex-row.justify-between a:hover {
+     text-decoration: none;
+}
+
+
+
+div.flex.flex-row.justify-between span.mx-2.opacity-50:before {
+     content: "❯";
+     display: none;
+}
+
+
+#right-sidebar {
+     background-color: rgba(51, 122, 183, 0.1)
+}
+
+div.flex.flex-row.justify-center .flex.items-center.pr-1 {
+     color: #0000;
+}
+
+div.flex.flex-row.justify-center:hover {
+     text-decoration: underline;
+}
+
+div.flex.flex-row.justify-center .flex.items-center.pr-1:before {
+     content: "— ";
+     color: #045591;
+}
+
+.block-children {
+     border-left: 1px solid rgba(4, 85, 145, 0.3);
+     border-radius: 2px;
+}
+
+div.my-2.bg-base-2.px-7.py-2.rounded {
+     background-color: #f5f8fa;
+}
+
+code {
+     display:none;
+}
