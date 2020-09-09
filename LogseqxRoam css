@@ -164,11 +164,12 @@ div.text-sm.ml-1.mb-4.flex-1 {
 }
 
 div.table-wrapper {
-     background-color:white;
+     background-color:inherit;
 }
 
 td.org-left {
      border:1px solid black;
+     padding-left:4px;
      background-color:white;
 }
 
@@ -176,16 +177,11 @@ th.org-left {
      border:1px solid black;
      color:black;
      font-weight:bold;
+     padding-left:4px;
+     background-color:white;
 }
 
 h1, h2, h3, h4, h5, h6, h7, h8 {
      opacity:1;
      color:black;
-}
-
-input#search_field {
-     margin-top:5px;
-     border:2px solid #0080007a; height:35px;
-          border-radius:25px;
-     margin-left:20px;
 }
